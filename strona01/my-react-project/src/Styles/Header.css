@@ -1,0 +1,26 @@
+.Nav-Header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(23, 23, 23);
+}
+
+.Nav{
+    overflow: hidden;
+}
+.Nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    left: 35%;
+    margin-right: 20px;
+}
+
+.Nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
