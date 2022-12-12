@@ -1,0 +1,17 @@
+.videoContainer{
+    width: 100%;
+    text-align: center;
+}
+.video{
+    width: 50vw;
+    height: 50vh;
+    margin: 30px;
+}
+.background2{
+    background-color: rgb(185, 185, 184);
+}
+.table{
+    width: 60%;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}

@@ -1,0 +1,23 @@
+.background3{
+    display: block;
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(224, 224, 224);
+    align-items: center;
+}
+.inspiration-image{
+    position: relative;
+    width: 50vw;
+    display: block;
+    margin: auto;
+    top: 100px;
+}
+#inspiration-text{
+    position: relative;
+    width: fit-content;
+    top: 100px;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    z-index: 1;
+}
