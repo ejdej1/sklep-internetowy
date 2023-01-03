@@ -1,0 +1,72 @@
+.background-ContactPage{
+    display: block;
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    height: 90vh;
+    display: inline-block;
+}
+.faq-field{
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin:0;
+    float: right;
+    background-color: rgb(246, 246, 246);
+}
+.contact-field{
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin:0;
+    float: left;
+}
+
+.contact-title{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(220, 31, 31);
+}
+.contact-points{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.faq-title{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(220, 31, 31);
+}
+
+.input-email{
+    display: block;
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+.contact-subject{
+    display: block;
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+.contact-message{
+    display: block;
+    width: 80%;
+    height: 280px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.faq-content{
+    display: flex;
+    flex-direction: column;
+
+}

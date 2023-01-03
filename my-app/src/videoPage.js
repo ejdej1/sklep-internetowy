@@ -6,21 +6,26 @@ function VideoPage (){
 
     return (
         <div className='background2'>
-            <table className='table'>
-                    <tr>
-                        <td className='table_content_left'><AiOutlineBulb></AiOutlineBulb></td>
-                        <td>LED Light</td>
-                        <td className='table_content_right'><AiOutlineStar></AiOutlineStar> </td>
-                        <td className='table_content_right'>Amaze your guests</td>
-                    </tr>
-                    <tr>
-                        <td className='table_content_left'><ImBullhorn></ImBullhorn></td>
-                        <td>TEST</td>
-                        <td className='table_content_right'><ImBullhorn></ImBullhorn></td>
-                        <td className='table_content_right'>TEST</td>
-                    </tr>
-                    
-            </table>
+            <div className='informationContainer'>
+                <div className='informationLeft'>
+                    <div className='text-container'>
+                        <h2 className='text-information'>TEST</h2>
+                        <h2 className='text-information'>TEST</h2>
+                        <h2 className='text-information'>TEST</h2>
+                        <h2 className='text-information'>TEST</h2>
+                       
+                    </div>
+                </div>
+                <div className='informationRight'>
+                    <div className='text-container' id='text-container-right'>
+                        <h2 className='text-information'>TEST</h2>
+                        <h2 className='text-information'>TEST</h2>
+                        <h2 className='text-information'>TEST</h2>
+                        <h2 className='text-information'>TEST</h2>
+                  
+                    </div>
+                </div>
+            </div>
             <div className='videoContainer'>
             <iframe className='video'
                 src="https://www.youtube.com/embed/tgbNymZ7vqY">

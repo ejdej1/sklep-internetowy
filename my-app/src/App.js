@@ -7,6 +7,8 @@ import MiddlePage2 from './middlePage2';
 import VideoPage from './videoPage';
 import InspirationPage from './inspirationPage';
 import SpecificationPage from './specificationPage';
+import ContactPage from './ContactPage';
+import EndPage from './EndPage';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
     <MiddlePage></MiddlePage>
     <InspirationPage></InspirationPage>
     <SpecificationPage></SpecificationPage>
+    <ContactPage></ContactPage>
+    <EndPage></EndPage>
     </div>
   );
 }

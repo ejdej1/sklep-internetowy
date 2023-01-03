@@ -10,8 +10,37 @@
 .background2{
     background-color: rgb(185, 185, 184);
 }
-.table{
-    width: 60%;
-    margin-left: 20vh;
-    margin-right: 20vh;
+.informationContainer{
+    display: block;
+    width: 100%;
+    height: 500px;
+    
+}
+.informationLeft{
+    display: block;
+    width: 50%;
+    height: 90%;
+    float: left;
+}
+.informationRight{
+    display: block;
+    float: right;
+    width: 50%;
+    height: 90%;
+   
+}
+.text-container{
+    display: block;
+    position: relative;
+    top: 50px;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    text-align: right;
+}
+#text-container-right{
+    text-align: left;
+}
+.text-information{
+    margin-bottom: 70px;
 }
